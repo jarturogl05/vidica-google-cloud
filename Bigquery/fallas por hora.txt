@@ -1,0 +1,3 @@
+  SELECT EXTRACT (hour from FECHA_INICIO ) as tm,
+       COUNT(*) FROM `bbva-latam-hack22mex-5008.issues.issues`  GROUP BY tm ORDER BY tm;
+ 

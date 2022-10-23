@@ -1,0 +1,2 @@
+  SELECT DATE_TRUNC(FECHA_INICIO , day) as tm,
+       COUNT(*) FROM `bbva-latam-hack22mex-5008.issues.issues`  GROUP BY tm order by tm;

@@ -1,0 +1,2 @@
+
+SELECT CR, Sitio, Calle, Num__Ext_, Estado, Ciudad, CP, Colonia, Latitud, Longitud, count(CR) as totalAtm FROM `bbva-latam-hack22mex-5008.atm.atms` group by CR ,Sitio, Calle, Num__Ext_, Estado, Ciudad, CP, Colonia, Latitud, Longitud order by totalAtm desc
